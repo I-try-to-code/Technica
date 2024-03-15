@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="p-3 mb-3 border-bottom " style="background-color: #e9ecef;">
+    <div class="container" >
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start " >
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <img src="./images/LOG.png" height="49px">
+                </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="../home/index.html" class="nav-link px-2 link-body-emphasis"> Overview</a></li>
+          <li><a href="../Accounting/index.html" class="nav-link px-2 link-body-emphasis">Accounting</a></li>
+          <li><a href="../itr/index.html" class="nav-link px-2 link-body-emphasis">ITR</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">Invoicing</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end" >
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./images/ayan.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small" style="">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://www.google.com">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
     <div class="container">
         <h1>Invoice Generator</h1>
         <form id="invoiceForm">
