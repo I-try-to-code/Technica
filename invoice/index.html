@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Invoice Generator</h1>
+        <form id="invoiceForm">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <label for="buyerAddress">Buyer's Address:</label>
+            <textarea id="buyerAddress" required></textarea>
+            <label for="sellerAddress">Seller's Address:</label>
+            <textarea id="sellerAddress" required></textarea>
+            <label for="items">Items Sold:</label>
+            <textarea id="items" required></textarea>
+            <button type="submit">Generate Invoice</button>
+        </form>
+        <div id="invoiceResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

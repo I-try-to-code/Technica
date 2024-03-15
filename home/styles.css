@@ -1,0 +1,17 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0077ff, #4cedff, #12eedf);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+li{
+    font-size: larger;
+}  
+.cont1{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.card-text{
+    text-align: center;
+    font-weight: 500;
+}
